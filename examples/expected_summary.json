@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "interpretation": "Generic event summaries and illustrative linked-reply candidates; no domain conclusion or prediction.",
+  "policy": {
+    "required_replies": 4,
+    "reply_window_seconds": 6,
+    "reset_on_interval": true
+  },
+  "sessions": [
+    {
+      "session_id": "sample_arc",
+      "observation_seconds": 96,
+      "event_count": 9,
+      "entities": {
+        "entity_red": {
+          "signals": 4,
+          "replies": 0,
+          "sole_interval_initiations": 1
+        },
+        "entity_blue": {
+          "signals": 0,
+          "replies": 4,
+          "sole_interval_initiations": 0
+        }
+      },
+      "interval_event_count": 1,
+      "multiple_interval_initiations": 0,
+      "unknown_interval_initiations": 0,
+      "interval_annotated_seconds": 3,
+      "interval_union_seconds": 3,
+      "interval_events_per_minute": 0.625,
+      "interval_time_fraction": 0.03125,
+      "linked_reply_candidates": [
+        {
+          "source_entity": "entity_red",
+          "replying_entity": "entity_blue",
+          "at_seconds": 49,
+          "supporting_signal_ids": [
+            "signal_1",
+            "signal_2",
+            "signal_3",
+            "signal_4"
+          ],
+          "interval_at_or_after_candidate": true
+        }
+      ],
+      "candidate_diagnostics": {
+        "unlinked_replies": 0,
+        "signals_without_timely_reply": 0,
+        "overlapping_signals_excluded": 0,
+        "interval_interrupted_replies": 0,
+        "nonchronological_replies_excluded": 0,
+        "extra_linked_replies_not_counted": 0
+      }
+    },
+    {
+      "session_id": "sample_wave",
+      "observation_seconds": 96,
+      "event_count": 10,
+      "entities": {
+        "entity_red": {
+          "signals": 3,
+          "replies": 1,
+          "sole_interval_initiations": 0
+        },
+        "entity_blue": {
+          "signals": 1,
+          "replies": 3,
+          "sole_interval_initiations": 0
+        }
+      },
+      "interval_event_count": 2,
+      "multiple_interval_initiations": 1,
+      "unknown_interval_initiations": 1,
+      "interval_annotated_seconds": 4,
+      "interval_union_seconds": 3,
+      "interval_events_per_minute": 1.25,
+      "interval_time_fraction": 0.03125,
+      "linked_reply_candidates": [],
+      "candidate_diagnostics": {
+        "unlinked_replies": 0,
+        "signals_without_timely_reply": 0,
+        "overlapping_signals_excluded": 0,
+        "interval_interrupted_replies": 0,
+        "nonchronological_replies_excluded": 0,
+        "extra_linked_replies_not_counted": 0
+      }
+    },
+    {
+      "session_id": "sample_dot",
+      "observation_seconds": 96,
+      "event_count": 9,
+      "entities": {
+        "entity_red": {
+          "signals": 4,
+          "replies": 0,
+          "sole_interval_initiations": 0
+        },
+        "entity_blue": {
+          "signals": 0,
+          "replies": 4,
+          "sole_interval_initiations": 1
+        }
+      },
+      "interval_event_count": 1,
+      "multiple_interval_initiations": 0,
+      "unknown_interval_initiations": 0,
+      "interval_annotated_seconds": 2,
+      "interval_union_seconds": 2,
+      "interval_events_per_minute": 0.625,
+      "interval_time_fraction": 0.020833333333333332,
+      "linked_reply_candidates": [],
+      "candidate_diagnostics": {
+        "unlinked_replies": 0,
+        "signals_without_timely_reply": 0,
+        "overlapping_signals_excluded": 0,
+        "interval_interrupted_replies": 0,
+        "nonchronological_replies_excluded": 0,
+        "extra_linked_replies_not_counted": 0
+      }
+    }
+  ]
+}
