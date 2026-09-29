@@ -1,4 +1,3 @@
-[PULL_REQUEST_TEMPLATE.md](https://github.com/user-attachments/files/32783067/PULL_REQUEST_TEMPLATE.md)
 ## Change
 
 Describe the generic software change and its expected effect. Use only neutral
