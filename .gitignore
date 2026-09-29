@@ -1,0 +1,26 @@
+# Ignoring a file does not remove it from existing Git history.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+private_data/
+local_runs/
+*.log
+*.mp4
+*.avi
+*.mov
+*.xlsx
+*.docx
+*.pdf
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.sqlite*
+.DS_Store
+Thumbs.db

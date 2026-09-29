@@ -1,0 +1,5 @@
+{
+  "required_replies": 4,
+  "reply_window_seconds": 6.0,
+  "reset_on_interval": true
+}

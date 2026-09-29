@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "event-relation-toolkit"
+version = "0.2.0"
+description = "Offline annotation summaries with independent synthetic examples"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+event-relations = "event_relations.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["event_relations*"]
